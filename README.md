@@ -30,11 +30,11 @@ I also enjoy playing chess.
 - [x] Axiom Verge
 - [x] Celeste
 - [x] Terraria
-- [] Elden Ring
-- [] For Honor
-- [] Stardew Valley
-- [] Dead Cells
-- [] Tears of the Kingdom
+- [ ] Elden Ring
+- [ ] For Honor
+- [ ] Stardew Valley
+- [ ] Dead Cells
+- [ ] Tears of the Kingdom
 
 ### Websites I could not survive without
 1. [Terraria Wiki](https://terraria.wiki.gg/wiki/Terraria_Wiki)  
