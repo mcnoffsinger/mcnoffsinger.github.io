@@ -57,22 +57,18 @@ writer-->write
 
 ``` mermaid
 sankey-beta
-psychedelic rock, Black Sabbath,50
-Hard Rock, Black Sabbath,50
+psychedelic rock, Black Sabbath,60
+Hard Rock, Black Sabbath,60
 
-Black Sabbath, Heavy Metal, 90
-Black Sabbath, Doom Metal, 10
+Black Sabbath, Heavy Metal, 100
+Black Sabbath, Doom Metal, 20
 Heavy Metal, Thrash Metal, 80
-Heavy Metal, Glam Metal, 10
+Heavy Metal, Glam Metal, 20
 
 Thrash Metal, Death Metal, 20
 Thrash Metal, Prog Metal, 20
 Thrash Metal, Groove Metal, 20
-Thrash Metal, Hardcore, 20
-
-Hard Rock, Punk, 20
-Punk, Hardcore, 20
-
+Thrash Metal, Hardcore Punk, 20
 
 
 ```
