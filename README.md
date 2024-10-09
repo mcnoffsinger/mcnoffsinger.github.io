@@ -43,3 +43,36 @@ I also enjoy playing chess.
 - I have beaten this game many times, and have 111% completion over the course of playing it on and off for three years. Without this wiki, I would have been completely lost. 
 3. [Youtube](https://www.youtube.com/)  
 - I need this site not only for entertainment, but for helping me with schoolwork, finding bass tabs, and listening to music. This site is "interesting" because it gives you 30 second unskippable ads. This is an edit because my vscode was bugging out and i needed to git add again.
+## My Mermaid charts
+```mermaid
+graph TD;
+write-->code
+write-->lol
+lol-->beans
+code-->beans
+beans-->writer
+writer-->write
+```
+### Somewhat Comprehensive Metal Music diagram
+
+``` mermaid
+sankey-beta
+psychedelic rock, Black Sabbath,50
+Hard Rock, Black Sabbath,50
+
+Black Sabbath, Heavy Metal, 90
+Black Sabbath, Doom Metal, 10
+Heavy Metal, Thrash Metal, 80
+Heavy Metal, Glam Metal, 10
+
+Thrash Metal, Death Metal, 20
+Thrash Metal, Prog Metal, 20
+Thrash Metal, Groove Metal, 20
+Thrash Metal, Hardcore, 20
+
+Hard Rock, Punk, 20
+Punk, Hardcore, 20
+
+
+
+```
