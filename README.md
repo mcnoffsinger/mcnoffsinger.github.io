@@ -44,15 +44,7 @@ I also enjoy playing chess.
 3. [Youtube](https://www.youtube.com/)  
 - I need this site not only for entertainment, but for helping me with schoolwork, finding bass tabs, and listening to music. This site is "interesting" because it gives you 30 second unskippable ads. This is an edit because my vscode was bugging out and i needed to git add again.
 ## My Mermaid charts
-```mermaid
-graph TD;
-write-->code
-write-->lol
-lol-->beans
-code-->beans
-beans-->writer
-writer-->write
-```
+
 ### Somewhat Comprehensive Metal Music diagram
 
 ``` mermaid
@@ -72,3 +64,25 @@ Thrash Metal, Hardcore Punk, 20
 
 
 ```
+### Average Monday For Me
+``` mermaid
+    journey
+        title My Mornings
+        section Wake up
+            Wake up: 2
+            Eat breakfast: 5
+            Watch youtube: 8
+            Get dressed: 6
+        section Drive to School
+            My music pick: 8
+            My brothers pick: 15
+            Arrive at school: 6
+            Get to class: 4
+        section Earth Science
+            Realize I forgot the homework: 3
+            Finish the homework:7
+            Get a 10/100 on the quiz: -10
+            Leave: 3
+
+
+
