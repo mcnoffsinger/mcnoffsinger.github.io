@@ -84,5 +84,8 @@ Thrash Metal, Hardcore Punk, 20
             Get a 10/100 on the quiz: -10
             Leave: 3
 
+    style Drive to School fill:green
+```
+
 
 
