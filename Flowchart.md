@@ -34,3 +34,5 @@ style uNum fill:darkblue
 style gNum fill:darkblue
 
 ```
+## Documentation
+In the startup phase, the Random number is chosen, then in the while loop the number is guessed until a. the number is in range, and b. the number is equal to the generated number.
