@@ -41,7 +41,7 @@ Customers ||..|o Accounts : have
 
 ```
 ## Documentation
-A customer is added to the database when either an account is created, or an order is placed. 
+A customer is added to the database when either an account is created, or an order is placed. This is why some customers have zero orders.
 
 ### Relationships:
 
