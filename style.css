@@ -14,6 +14,7 @@
     text-align:center;
 
 }
+
 .name {
     color: #e9e2a9;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
@@ -24,14 +25,26 @@
     text-align:left;
     box-align:top;
 }
+main {
+    display:flex;
+}
 .column {
     
     margin: 20px 1%;
     border:50px;
-    min-width:100px;
-    float:left;
-   
     
+    float:left;
+    border:solid;
+    border-width:3px;
+    border-color:#e9e2a9;
+    border-radius:5%;
+    color:#e9e2a9;
+    background-color:#5D3e4c;
+    padding:2% 
+}
+.column *{
+    color:#e9e2a9;
+    background-color:#5D3e4c;
 }
 #one {
     width:26%;
@@ -39,7 +52,7 @@
 }
 #two {
     width:38%;
-    min-width:500px;
+    min-width:200px;
 }
 #three {
     width:26%;
@@ -79,7 +92,7 @@ nav li {
     padding:0;
     background-color:#5D3e4c;
     color:#e9e2a9;
-    style:inline-block;
+    
     width: 30%;
     float:left;
     height: 100px;
@@ -92,15 +105,17 @@ nav li {
 
     
 }
-
-h2 {
+.current a, .current {
+    background-color:#343533;
     color:#e9e2a9;
-    background-color:#5D3e4c;
-    border:solid;
-    border-width:3px;
-    border-color:#e9e2a9;
-    border-radius:5%;
 }
+
+    
+    
+    
+
+
+
 #contact, #hobby {
     width:60%;
     margin:50px;
