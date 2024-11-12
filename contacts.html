@@ -17,23 +17,47 @@
         <h3><em>mcnoffsinger@my.waketech.edu</em></h3>
         <h3><em>mcnoffsinger@students.wcpss.net</em></h3>
         <h3><em>noffsingermax@gmail.com</em></h3>
-    </header>  
+    </header> 
+    <h2> Contact me</h2> 
     <form>
-        <h2> Contact me</h2>
+        
+
+    <quest class = "mc">
+        
+        <input type = "radio" name = "why" id = "question">
+        <label class = "button" for="question">Question</label>
+    </quest> 
+    <quest class = "mc">
+        
+        <input type = "radio" name = "why" id = "comment">
+        <label class = "button" for="comment">Comment</label>
+    </quest> 
+    <quest class = "mc">
+        
+        <input type = "radio" name = "why" id = "concern">
+        <label class = "button" for="concern">Suggestion</label>
+    </quest> 
+    <quest>
         <label for = "name">Name</label>
         <input id = "name" type = "text" Value = "" required>
-
-
+    </quest>
+    <quest>
         <label for = "email">Email</label>
         <input id = "email" type = "text" Value = "" required>
-
-
+    </quest>
+    <quest>
         <label for = "message">Message:</label>
-        <textarea id = "message"  Value = "" rows = "6" columns: ="6"></textarea>
-
+        <textarea id = "message"  Value = "" rows = "6" columns: ="6" minlength = "10"></textarea>
+    </quest>
+    <quest>
+        <label for = "phone">Phone Number</label>
+        <input id = "phone" type = "text" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    </quest>
+    <quest id = "finish">
         <label for = "SUBMIT"></label>
         <input id = "SUBMIT" type = "submit" Value = "Submit">
-
+    </quest>
+    
         
 
 
