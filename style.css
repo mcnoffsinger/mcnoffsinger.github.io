@@ -186,10 +186,10 @@ strong {
 
 form {
     display:flex;
-    text-align:baseline;
-    justify-content:center;
+    
     flex-wrap:wrap;
     flex-direction:column;
+    text-align:left;
 
 }
 
@@ -198,7 +198,9 @@ quest {
     margin:10px 25%;
     display:block;
     flex-direction:column;
-    text-align:right
+    text-align:left;
+    
+    
 
 
 }
@@ -233,7 +235,24 @@ quest label {
 #finish {
     width:100%;
     margin:0px;
+    text-align:center;
 }
 a:hover {
     color:#F8F8F6;
+}
+.c-error, .c-validation, .c-label {
+    background-color:#F8F8F6;
+    color:#343533;
+}
+
+
+@media (max-width:1000px) {
+   main {
+    flex-direction:column;
+   }
+   .column, #one,#two,#three,#four,li,form{
+    width: 100%;
+    max-width:none;
+    list-style-type:none;
+   }
 }

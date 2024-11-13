@@ -43,15 +43,15 @@
     </quest>
     <quest>
         <label for = "email">Email</label>
-        <input id = "email" type = "text" Value = "" required>
+        <input id = "email" type = "email" Value = "" required oninvalid="this.setCustomValidity('Please enter a real email ') " oninput="this.setCustomValidity('')">
     </quest>
     <quest>
         <label for = "message">Message:</label>
-        <textarea id = "message"  Value = "" rows = "6" columns: ="6" minlength = "10"></textarea>
+        <textarea id = "message"  Value = "" column-count = "30" minlength = "10" oninvalid="this.setCustomValidity('Please enter more than 10 characters.')" oninput="this.setCustomValidity('')"></textarea>
     </quest>
     <quest>
         <label for = "phone">Phone Number</label>
-        <input id = "phone" type = "text" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <input id = "phone" type = "text" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" required oninvalid="this.setCustomValidity('Please enter a real emphone number, ex: XXX-XXX-XXXX')" oninput="this.setCustomValidity('')">
     </quest>
     <quest id = "finish">
         <label for = "SUBMIT"></label>
